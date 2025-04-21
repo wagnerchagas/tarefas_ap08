@@ -1,0 +1,18 @@
+# programa gera medidas reais
+
+import random
+comprimento = random.uniform(1, 10)
+largura = random.uniform(1, 10)
+
+
+preco_m2 = random.uniform(60, 70)
+
+area = comprimento * largura
+preco_toral = area * preco_m2
+valor_total = area * preco_m2
+# exibe valores
+print("Comprimento do terreno:", round(comprimento, 2), "m")
+print("Largura do terreno:", round(largura, 2), "m")
+print("Área do terreno:", round(area, 2), "m²")
+print("Preço por metro quadrado: R$", round(preco_m2, 2))
+print("Valor total do terreno: R$", round(valor_total, 2))
