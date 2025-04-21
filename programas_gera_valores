@@ -1,0 +1,15 @@
+#gera valores reais para a, b, e c no intervalo [1, 10]
+
+import random
+
+a = random.uniform(1, 10)
+b = random.uniform(1, 10)
+c = random.uniform(1, 10)
+
+delta = b**2 - 4*a*c
+
+#exibe valores
+print("a = ", round(a, 2))
+print("b = ", round(b, 2))
+print("c = ", round(c, 2))
+print("Delta = ", round(delta, 2))
