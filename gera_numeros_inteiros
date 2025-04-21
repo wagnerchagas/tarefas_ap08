@@ -1,0 +1,11 @@
+#Para os exercícios que não especifiquem intervalos explicitamente, considere os seguintes
+#intervalos.
+#Números inteiros: [1, 100]
+#Números reais: [1, 10]
+
+import random
+#gera um valor inteeiro no intervalo [1, 100]
+valor_inteiro = random.randint(1, 100)  
+
+#exibe o valor gerado 
+print("Valor inteiro gerado:", valor_inteiro)

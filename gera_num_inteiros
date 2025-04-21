@@ -1,0 +1,11 @@
+$$
+DO
+DECLARE
+    v_numero INTEGER;
+BEGIN
+
+    v_numero := TRUNC(DBMS_RANDOM.VALUE(1, 101)); 
+
+    DBMS_OUTPUT.PUT_LINE('Numero gerado: 1 || v_numero); 
+END;
+$$
