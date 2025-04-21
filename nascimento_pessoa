@@ -1,0 +1,15 @@
+import random
+
+# Gera o ano de nascimento [1980, 2000]
+ano_nascimento = random.randint(1980, 2000)
+
+# Gera o ano atual [2010, 2020]
+ano_atual = random.randint(2010, 2020)
+
+# Calcula a idade
+idade = ano_atual - ano_nascimento
+
+# Exibe os resultados
+print("Ano de nascimento:", ano_nascimento)
+print("Ano atual:", ano_atual)
+print("Idade da pessoa:", idade, "anos")
