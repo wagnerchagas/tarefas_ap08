@@ -1,12 +1,12 @@
-#temperatura em graus celcius
+# temperatura em graus celcius
 import random
 
-#gera temperatura em graus celcius no intervalo [20, 30]
+# gera temperatura em graus celcius no intervalo [20, 30]
 temperatura_celcius = random.uniform(20, 30)
 
-#converte para fahrenheit = (9/5) * temperatura_celcius + 32
+# converte para fahrenheit = (9/5) * temperatura_celcius + 32
 temperatura_fahrenheit = (9/5) * temperatura_celcius + 32
 
-#exibe valores 
+# exibe valores
 print('temperatura em celcius:', round(temperatura_celcius, 2), "ºc")
 print('temperatura em fahrenheit:', round(temperatura_fahrenheit, 2), "ºf")

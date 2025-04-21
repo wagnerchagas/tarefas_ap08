@@ -1,8 +1,8 @@
 # 1.2. Faça um programa que gere um valor real e o exiba.
 import random
 
-#gera valores real no intervalo [1, 10]
-valor_real = rondom.uniform(1, 10)
+# gera valores real no intervalo [1, 10]
+valor_real = random.uniform(1, 10)
 
-#exibe o valor gerado
-print('Valor real gerado:", valor_real)')
+# exibe o valor gerado
+print("Valor real gerado:", valor_real)
